@@ -83,7 +83,9 @@ engine sets up a memory space for variables and functions.
 
 2. If it is a function it will copy entire function and keeps in memory 
 
-
+Scope
+----------
+where a variable is available in your code 
 
 1. find out all the variables and functions in the code file
 

@@ -6,6 +6,7 @@ var a = 10;
     a = fucntion()
     a = {name: 'value'}
     a = ["red", "blue", "yellow"]
+    a = new Date()
 
     var obj ={
         city: 'hyderbad',
