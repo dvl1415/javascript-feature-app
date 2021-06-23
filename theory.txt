@@ -1,3 +1,5 @@
+Vanilla javascript / ES5 / ECMAScript 5
+----------------------------------------
 Introduction
 Hoisting
 Types
@@ -27,7 +29,7 @@ HTML - is the markup language that we use to structure and give meaning to our
 
 CSS - is a language of style rules that we used to apply styling to our HTMl Cotent
 
-Javsscript - is scripting language that enables you to create dynamically 
+Javascript - is scripting language that enables you to create dynamically 
              updating content
 
 
@@ -84,8 +86,8 @@ engine sets up a memory space for variables and functions.
 2. If it is a function it will copy entire function and keeps in memory 
 
 Scope
-----------
-where a variable is available in your code 
+---------
+Where a variable is available in your code
 
 1. find out all the variables and functions in the code file
 
@@ -130,7 +132,7 @@ A type of data that represents a  single value is called primitive data type
 5. string - a sequence oc characters
 6. Symbol - used in ES6
 
-Anythiing which is not primitive is an Object in javascript
+Anything which is not primitive is an Object in javascript
 
 object 
 function
@@ -155,19 +157,19 @@ First Class Functions
 -------------------
 1. can be Invoked
 2. assign to a variable
-3. passed as a parameter to another variable
+3. passed as a parameter to another function
 
 Advantages with IIFs (24/09/2020)
 --------------------
 1. will not create unnecessary gloabal variables and functions
-2. functions and variables defined don not conflict
+2. functions and variables defined do not conflict
 
 
 Objects
 --------
 An Object is a collection of name value pairs
 
-1. using New Object()
+1. using new Object()
 2. using Object Literal {}
 3. using Object.create()
 4. Construtor function
@@ -223,6 +225,8 @@ arrays
 An array is an object that can store a collection of items
 
 Useful when you want to store large amount of data
+
+[] // Array Literal Syntax
 
 
 var students = ["Shanthanu", "Sunitha" , "Surekha", "Prdeep"]
