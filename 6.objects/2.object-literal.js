@@ -27,3 +27,9 @@ var student = {
 
 console.log(student)
 console.log(student.getFullName())
+
+var person2 = {"firstName": 'John', "lastName": 'Wick'}
+console.log(person2, typeof person2)
+
+var person3 =JSON.stringify(person2)
+console.log(person3, typeof person3)
