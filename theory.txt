@@ -240,6 +240,11 @@ var array  = new Array(100000) - length will not create any memory
 
 array index starts from zero
 
+Array.push() // Adds new element to array at the end
+Array.Pop() // Removes element from an array at the end 
+Array.Unshift() // Adds new element to an array at the begining 
+Array.Shift() // removes an element from an array from the begining
+
 Closure (28/09/2020)
 ----------
 Inner functions having access to the variables of outer functions
