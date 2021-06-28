@@ -75,6 +75,14 @@ Global Object - window
 
 Global -  means not inside the function
 
+--> if function is outside then 'this' becomes global object 
+--> if function is inside an object then 'this' becomes that object 
+
+inside an object 
+-----------------
+if the value is primitive it is called property 
+if the value is function then it is called method 
+
 Hoisting
 ---------
 When you declare variables and functions in javascript, the execution 
