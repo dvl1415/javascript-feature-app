@@ -3,3 +3,5 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Op
 https://www.tutorialspoint.com/javascript/javascript_builtin_functions.htm
 
 https://github.com/UmamaheshMaxwell/javascript-arrays
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
