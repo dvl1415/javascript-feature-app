@@ -2,3 +2,5 @@
 2. Search engine optimization
 3. Digital Marketing
 4. understand the Prototype in the Section of class
+5. Class, Inheritance, Ploymorphism, error-handling
+   review with someone else

@@ -84,3 +84,25 @@ console.log(personObject2.age)
    ! that use  'new' keyword 
 
 */
+
+function Order(code, name){
+  this.code = code 
+  this.name = name 
+}
+
+Order.prototype.getOrderDetails  = function(){
+  return `Order Details- Order Name : ${this.name}, 
+                          Order Code: ${this.code}`
+}
+
+Order.prototype.city = "Kitchener"
+
+var order1 = new Order("ABC", "Desktop")
+order1.city = "Waterloo"
+console.log(order1)
+var order2 = new Order("AAA", "Laptop")
+order2.city = "Cambridge"
+console.log(order2)
+var order3 = new Order("BBB", "IPAD")
+order3.city = "Guelph"
+console.log(order3)
