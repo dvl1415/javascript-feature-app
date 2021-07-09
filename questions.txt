@@ -4,3 +4,5 @@
 4. understand the Prototype in the Section of class
 5. Class, Inheritance, Ploymorphism, error-handling
    review with someone else
+6. Array sorting
+7. Duplication and removals in array

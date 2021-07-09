@@ -1,3 +1,8 @@
+/*
+    ! To understrand this concept go and learn the Module concepts
+    ! and it will be more easier to understand singlton afterwards
+
+*/
 var Singleton = (function(){
     var instance = null;
 
