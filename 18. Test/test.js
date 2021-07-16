@@ -141,3 +141,14 @@ for(var item of Object.keys(obj)){
 }
 
 console.log("Hello %s your Id is %i your details :%o", "Dhaval", 1234, {name:'Dvl'})
+
+// Set Time out is working here as the delay 
+setTimeout(function(){
+    console.log('Hello')
+  })
+  
+  // Set Interval work as the after every set 
+  //period it will call the fucntion
+  setInterval(function(){
+    console.log('Hey You, Bastard?')
+  },3000)

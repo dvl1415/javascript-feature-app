@@ -88,3 +88,35 @@ let multiply = (x,y) =>
 x*y
 
 console.log(multiply(2,3))
+
+var employee = {
+  id:1,
+  greet: function(){
+    setTimeout(function(){
+      console.log(this.id)
+    }.bind(this), 1000)
+  }
+}
+
+var employee = {
+  id:1,
+  greet: function(){
+    var self = this;
+    setTimeout(function()  {
+      console.log(self.id)
+    }, 1000)
+  }
+}
+
+var employee = {
+  id:1,
+  greet: function(){
+    var self = this;
+    setTimeout(() => {
+      console.log(self.id)
+    }, 1000)
+  }
+}
+
+
+employee.greet()
